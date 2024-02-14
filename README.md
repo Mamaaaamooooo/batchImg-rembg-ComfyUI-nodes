@@ -18,6 +18,7 @@ git clone https://github.com/Mamaaaamooooo/batchImg-rembg-ComfyUI-nodes.git
 
 ```
 pip install rembg[gpu]
+pip install tqdm
 ```
 
 
