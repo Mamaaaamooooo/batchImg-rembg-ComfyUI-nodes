@@ -37,7 +37,8 @@ pip install rembg[gpu]
 </br>
 </br>
 </br>
-<img src = 'https://github.com/Mamaaaamooooo/batchImg-rembg-ComfyUI-nodes/assets/135937372/c41f0a0f-2b0d-41fe-b705-11811becc239'>
+<img src = 'https://github.com/Mamaaaamooooo/batchImg-rembg-ComfyUI-nodes/assets/135937372/17966afa-0b8a-4774-95d0-2c57b3846694'>
+
 
 ### Optional Models(Choose according to your work, downloaded automatically)
 ---
