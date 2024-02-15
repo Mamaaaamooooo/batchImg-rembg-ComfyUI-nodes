@@ -1,5 +1,4 @@
-## [Remove background(Rembg)](https://github.com/danielgatis/rembg) of Plural Images for [ComfyUI](https://github.com/comfyanonymous/ComfyUI) custom-nodes
-</br>
+# [Rembg](https://github.com/danielgatis/rembg)(Remove background) of Plural Images for [ComfyUI](https://github.com/comfyanonymous/ComfyUI)
 </br>
 
 <img src = 'https://github.com/Mamaaaamooooo/batchImg-rembg-ComfyUI-nodes/assets/135937372/d3e05963-b047-4900-aa58-10f1e1b0980c' width="400" height="400"></img>
