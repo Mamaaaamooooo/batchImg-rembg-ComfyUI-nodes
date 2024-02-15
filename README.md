@@ -63,6 +63,10 @@ The available models are:
   | sam(not recommended, not easy to use) | A pre-trained model for any use cases. | [download encoder](https://github.com/danielgatis/rembg/releases/download/v0.0.0/vit_b-encoder-quant.onnx), [download decoder](https://github.com/danielgatis/rembg/releases/download/v0.0.0/vit_b-decoder-quant.onnx), [source](https://github.com/facebookresearch/segment-anything)        |
 </details>
 
+</br>
+</br>
+
+## Example 
 <table class="center">
     <tr style="line-height: 0">
     <td width=34% style="border: none; text-align: center">Original Image</td>
@@ -76,7 +80,7 @@ The available models are:
     </tr>
 </table>
 
-
+</br>
 
 ## Acknowledgements
 
