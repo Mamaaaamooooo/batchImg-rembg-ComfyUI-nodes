@@ -1,4 +1,4 @@
-# [Rembg](https://github.com/danielgatis/rembg) of Plural Images for [ComfyUI](https://github.com/comfyanonymous/ComfyUI) custom-nodes
+# [Remove background](https://github.com/danielgatis/rembg) of Plural Images for [ComfyUI](https://github.com/comfyanonymous/ComfyUI) custom-nodes
 </br>
 </br>
 
