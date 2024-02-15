@@ -1,4 +1,4 @@
-# batchImg-rembg 
+ # batchImg-rembg 
 [Rembg](https://github.com/danielgatis/rembg)(Remove background) of Plural Images for [ComfyUI](https://github.com/comfyanonymous/ComfyUI)
 </br></br>
 
@@ -48,14 +48,34 @@ All models are downloaded and saved in the user home folder in the `.u2net` dire
 
 The available models are:
 
-- u2net(default) ([download](https://github.com/danielgatis/rembg/releases/download/v0.0.0/u2net.onnx), [source](https://github.com/xuebinqin/U-2-Net)): A pre-trained model for general use cases.
-- u2netp ([download](https://github.com/danielgatis/rembg/releases/download/v0.0.0/u2netp.onnx), [source](https://github.com/xuebinqin/U-2-Net)): A lightweight version of u2net model.
-- u2net_human_seg ([download](https://github.com/danielgatis/rembg/releases/download/v0.0.0/u2net_human_seg.onnx), [source](https://github.com/xuebinqin/U-2-Net)): A pre-trained model for human segmentation.
-- u2net_cloth_seg ([download](https://github.com/danielgatis/rembg/releases/download/v0.0.0/u2net_cloth_seg.onnx), [source](https://github.com/levindabhi/cloth-segmentation)): A pre-trained model for Cloths Parsing from human portrait. Here clothes are parsed into 3 category: Upper body, Lower body and Full body.
-- silueta ([download](https://github.com/danielgatis/rembg/releases/download/v0.0.0/silueta.onnx), [source](https://github.com/xuebinqin/U-2-Net/issues/295)): Same as u2net but the size is reduced to 43Mb.
-- isnet-general-use ([download](https://github.com/danielgatis/rembg/releases/download/v0.0.0/isnet-general-use.onnx), [source](https://github.com/xuebinqin/DIS)): A new pre-trained model for general use cases.
-- isnet-anime ([download](https://github.com/danielgatis/rembg/releases/download/v0.0.0/isnet-anime.onnx), [source](https://github.com/SkyTNT/anime-segmentation)): A high-accuracy segmentation for anime character.
-- sam(not recommended, it's not easy to use) ([download encoder](https://github.com/danielgatis/rembg/releases/download/v0.0.0/vit_b-encoder-quant.onnx), [download decoder](https://github.com/danielgatis/rembg/releases/download/v0.0.0/vit_b-decoder-quant.onnx), [source](https://github.com/facebookresearch/segment-anything)): A pre-trained model for any use cases.
+<details open>
+<summary>Rembg Model Name </summary>
+
+  | Name            | Description                                                                  | Link |
+  |--------|-------------------------------------------------------------------------------------|------------------------------------|
+  | u2net(default) | A pre-trained model for general use cases.                                          | [download](https://github.com/danielgatis/rembg/releases/download/v0.0.0/u2net.onnx), [source](https://github.com/xuebinqin/U-2-Net) |
+  | u2netp | A lightweight version of u2net model.   | [download](https://github.com/danielgatis/rembg/releases/download/v0.0.0/u2netp.onnx), [source](https://github.com/xuebinqin/U-2-Net)        |
+  | u2net_human_seg |  A pre-trained model for human segmentation.   | [download](https://github.com/danielgatis/rembg/releases/download/v0.0.0/u2net_human_seg.onnx), [source](https://github.com/xuebinqin/U-2-Net)        |
+  | u2net_cloth_seg | A pre-trained model for Cloths Parsing from human portrait. Here clothes are parsed into 3 category: Upper body, Lower body and Full body.   | [download](https://github.com/danielgatis/rembg/releases/download/v0.0.0/u2net_cloth_seg.onnx), [source](https://github.com/levindabhi/cloth-segmentation)        |
+  | silueta | Same as u2net but the size is reduced to 43Mb.   | [download](https://github.com/danielgatis/rembg/releases/download/v0.0.0/silueta.onnx), [source](https://github.com/xuebinqin/U-2-Net/issues/295)        |
+  | isnet-general-use | A new pre-trained model for general use cases. |[download](https://github.com/danielgatis/rembg/releases/download/v0.0.0/isnet-general-use.onnx), [source](https://github.com/xuebinqin/DIS)        |
+  | isnet-anime | A high-accuracy segmentation for anime character.   | [download](https://github.com/danielgatis/rembg/releases/download/v0.0.0/isnet-anime.onnx), [source](https://github.com/SkyTNT/anime-segmentation)        |
+  | sam(not recommended, not easy to use) | A pre-trained model for any use cases. | [download encoder](https://github.com/danielgatis/rembg/releases/download/v0.0.0/vit_b-encoder-quant.onnx), [download decoder](https://github.com/danielgatis/rembg/releases/download/v0.0.0/vit_b-decoder-quant.onnx), [source](https://github.com/facebookresearch/segment-anything)        |
+</details>
+
+<table class="center">
+    <tr style="line-height: 0">
+    <td width=34% style="border: none; text-align: center">Original Image</td>
+    <td width=33% style="border: none; text-align: center">LineArt before Rembg</td>
+    <td width=33% style="border: none; text-align: center">LineArt after Rembg</td>
+    </tr>
+    <tr>
+    <td width=34% style="border: none"><img src="https://github.com/Mamaaaamooooo/batchImg-rembg-ComfyUI-nodes/assets/135937372/ef065506-e844-4b92-a282-d20198267f8e" style="width:100%"></td>
+    <td width=33% style="border: none"><img src="https://github.com/Mamaaaamooooo/batchImg-rembg-ComfyUI-nodes/assets/135937372/e4440bec-d6dd-4726-8200-c38facbd1130" style="width:100%"></td>
+    <td width=33% style="border: none"><img src="https://github.com/Mamaaaamooooo/batchImg-rembg-ComfyUI-nodes/assets/135937372/0d828694-1440-464b-9c68-7f646b73886f" style="width:100%"></td>
+    </tr>
+</table>
+
 
 
 ## Acknowledgements
