@@ -1,5 +1,5 @@
  # batchImg-rembg 
-[Rembg](https://github.com/danielgatis/rembg)(Remove background) of Plural Images for [ComfyUI](https://github.com/comfyanonymous/ComfyUI)
+[Rembg](https://github.com/danielgatis/rembg)(Remove background) of image sequence for [ComfyUI](https://github.com/comfyanonymous/ComfyUI)
 </br></br>
 
 <img src = 'https://github.com/Mamaaaamooooo/batchImg-rembg-ComfyUI-nodes/assets/135937372/d3e05963-b047-4900-aa58-10f1e1b0980c' width="400" height="400"></img>
