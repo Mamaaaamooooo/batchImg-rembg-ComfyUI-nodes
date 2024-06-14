@@ -1,0 +1,15 @@
+[project]
+name = "batchimg-rembg-comfyui-nodes"
+description = "Remove background of plural images."
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["rembg", "tqdm"]
+
+[project.urls]
+Repository = "https://github.com/Mamaaaamooooo/batchImg-rembg-ComfyUI-nodes"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "batchImg-rembg-ComfyUI-nodes"
+Icon = ""
